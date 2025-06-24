@@ -12,13 +12,17 @@
  * OpenPoke 2025 <https://github.com/AntoineLandrieux/OpenPoke> WTFPL
  * 
  */
+*,*::before,*::after{
+    padding: 0;
+    margin:0;
+}
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(#423e3e, #1b0809);
 }
 
